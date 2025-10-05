@@ -10,3 +10,13 @@ It unzipped the file and it gave me a executable file gophish, which was on read
   
 Then run the executable file.
 - sudo ./gophish
+
+# NGROK
+- wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+- unzip ngrok-stable-linux-amd64.zip
+- chmod +x ngrok
+- ngrok http 80
+
+Ngrok is a tool that creates a secure tunnel from your local machine to the internet. Essentially, it exposes a local server (running on your computer) so that it can be accessed via a public URL.
+
+This way my Phishing landing page can be accessed by users who are not in my network.
